@@ -1,0 +1,71 @@
+html, body {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.region-container { 
+    width: 80%;
+    height: 70%;
+    padding: 15px 5px;
+}
+
+.region-section {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 5px;
+}
+
+div.map {
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px, 0px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.map-tooltip {
+    padding: 0px 5px;
+}
+
+.tooltip-heading {
+    font-weight: 700;
+}
+
+.tooltip-count {
+    font-size: xx-large;
+}
+
+.tooltip-sub {
+    font-style: italic;
+}
+
+.jqvmap-label
+{
+    position: absolute;
+    display: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #9da2a3;
+    color: white;
+    padding: 3px;
+    pointer-events:none;
+    text-align: center;
+}
+
+/* Mobile fixes */
+.jqvmap-zoomin {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.jqvmap-zoomout {
+    width: 30px;
+    height: 30px;
+    top: 55px;
+    line-height: 30px;
+}
